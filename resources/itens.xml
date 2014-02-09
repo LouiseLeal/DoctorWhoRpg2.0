@@ -1,0 +1,29 @@
+<itens>
+<iten>
+	<nome>Banana</nome>
+	<descricao>Bananas are cool! They increase 100 in your HP!</descricao>
+	<xpEffect>0</xpEffect>
+	<hpEffect>100</hpEffect>
+	<attackEffect>0</attackEffect>
+	<inteligenceEffect>0</inteligenceEffect>
+	<defenceEffect>0</defenceEffect>
+</iten>
+<iten>
+	<nome>3D Glasses</nome>
+	<descricao> You can see better now. 10% increase in you attack for the battle.</descricao>
+	<xpEffect>0</xpEffect>
+	<hpEffect>0</hpEffect>
+	<attackEffect>10</attackEffect>
+	<inteligenceEffect>0</inteligenceEffect>
+	<defenceEffect>0</defenceEffect>
+</iten>
+<iten>
+	<nome>Glasses</nome>
+	<descricao>They make you look smarter! 10% increase in you inteligence for the battle</descricao>
+	<xpEffect>0</xpEffect>
+	<hpEffect>0</hpEffect>
+	<attackEffect>0</attackEffect>
+	<inteligenceEffect>10</inteligenceEffect>
+	<defenceEffect>0</defenceEffect>
+</iten>
+</itens>

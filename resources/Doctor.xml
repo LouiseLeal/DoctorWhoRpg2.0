@@ -1,0 +1,420 @@
+<type>inteligencia</type> <!-- ataque, inteligencia ou defesa - char* -->
+<life>15</life> <!-- valor de vida - inteiro -->
+<mana>5</mana> <!-- valor de mana - inteiro -->
+<sprite>3</sprite> <!-- valor do indice no arquivo de sprites de personagem - inteiro -->
+<sprite-w>64</sprite-w><!-- tamanho em px da largura do tile - inteiro -->
+<sprite-h>64</sprite-h><!-- tamanho em px da altura do tile - inteiro -->
+<image-w>14</image-w><!-- tamanho em tiles da largura da imagem - inteiro -->
+<image-h>2</image-h><!-- tamanho em tiles da altura da imgaem - inteiro -->
+<initial-position>
+	<posx>300</posx> <!-- posicao x inicial - float -->
+	<posy>400</posy> <!-- posicao y inicial - float -->
+</initial-position>
+<hability>
+	<attack-value>3</attack-value> <!-- valor de ataque - inteiro -->
+	<inteligence-value>10</inteligence-value>  <!-- valor de defesa - inteiro -->
+	<defence-value>6</defence-value> <!-- valor de defesa - inteiro -->
+</hability>
+<animation-list>
+<animation>
+		<name>parado_frente</name>
+		<sprite>0</sprite>
+		<frames>1</frames>
+		<loop>0</loop>
+	</animation>
+	<animation>
+		<name>parado_tras</name>
+		<sprite>2</sprite>
+		<frames>1</frames>
+		<loop>0</loop>
+	</animation>
+	<animation>
+		<name>parado_esq</name>
+		<sprite>4</sprite>
+		<frames>1</frames>
+		<loop>0</loop>
+	</animation>
+	<animation>
+		<name>parado_dir</name>
+		<sprite>5</sprite>
+		<frames>1</frames>
+		<loop>0</loop>
+	</animation>
+	<animation>
+		<name>andar_frente</name>
+		<sprite>1</sprite>
+		<frames>2</frames>
+		<loop>1</loop>
+	</animation>
+	<animation>
+		<name>andar_dir</name>
+		<sprite>5</sprite>
+		<frames>4</frames>
+		<loop>1</loop>
+	</animation>
+	<animation>
+		<name>andar_esq</name>
+		<sprite>4</sprite>
+		<frames>4</frames>
+		<loop>1</loop>
+	</animation>
+	<animation>
+		<name>andar_tras</name>
+		<sprite>3</sprite>
+		<frames>2</frames>
+		<loop>1</loop>
+	</animation>
+	<animation>
+		<name>posicao_batalha</name>
+		<sprite>6</sprite>
+		<frames>2</frames>
+		<loop>1</loop>
+	</animation>
+	<animation>
+		<name>Sonic</name>
+		<sprite>7</sprite>
+		<frames>7</frames>
+		<loop>0</loop>
+	</animation>
+	<animation>
+		<name>leva_ataque</name>
+		<sprite>8</sprite>
+		<frames>7</frames>
+		<loop>0</loop>
+	</animation>
+	<animation>
+		<name>Defence</name>
+		<sprite>9</sprite>
+		<frames>15</frames>
+		<loop>0</loop>
+	</animation>
+</animation-list>
+<attack-list>
+	<attack>
+		<name>Sonic</name> <!-- nome do ataque(nome da animacao tb) - char* -->
+		<type>ataque</type> <!-- tipo do ataqueL atc, int ou def - char* -->
+  	</attack>
+  	<attack>
+		<name>Defence</name> <!-- nome do ataque(nome da animacao tb) - char* -->
+		<type>defesa</type> <!-- tipo do ataqueL atc, int ou def - char* -->
+  	</attack>
+</attack-list>
+<dados_sprite-list>
+<linha>
+	<altura>0</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+<linha>
+	<altura>64</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+<linha>
+	<altura>128</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+<linha>
+	<altura>192</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+		<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+<linha>
+	<altura>256</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+		<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+		<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+		<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+<linha>
+	<altura>320</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+		<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+		<sprite>
+		<cropx>30</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+		<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+<linha>
+	<altura>384</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>34</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+		<sprite>
+		<cropx>34</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+<linha>
+	<altura>448</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>33</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>33</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+<linha>
+	<altura>512</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>33</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>48</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>33</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+<linha>
+	<altura>576</altura>
+	<altura>640</altura>
+	<largura>64</largura>
+	<sprite>
+		<cropx>34</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+	<sprite>
+		<cropx>32</cropx>
+		<cropy>64</cropy>
+		<deslocax>0</deslocax>
+		<deslocay>0</deslocay>
+	</sprite>
+</linha>
+</dados_sprite-list>
