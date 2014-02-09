@@ -2,11 +2,14 @@
  * Animation.cpp
  *
  *  Created on: Jun 1, 2013
- *      Author: Carol
+ *      Author: Carol e Louise
  */
+
+
 
 #include "../headers/Animation.h"
 
+//comentario
 Animation::Animation(Sprite *sprite, int linhaSprite, int nSprites, int loop, string nome, DADOS_ANIMACAO dadosAnimacao, Audio *sfx){
 	refSprite = sprite;
 	time = 0;
