@@ -39,19 +39,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: DoctorWhoRpg2.0
+all: DoctorWhoRpg
 
 # Tool invocations
-DoctorWhoRpg2.0: $(OBJS) $(USER_OBJS)
+DoctorWhoRpg: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
-	g++ -framework Cocoa -framework SDL -framework SDL_image -framework SDL_ttf -framework SDL_mixer /Users/Carol/Dropbox/worspace_cpp/DoctorWhoRpg/SDL_Main/SDLMain.m -o "DoctorWhoRpg2.0" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -framework Cocoa -framework SDL -framework SDL_image -framework SDL_ttf -framework SDL_mixer ../SDL_Main/SDLMain.m -o "DoctorWhoRpg" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(C++_DEPS)$(OBJS)$(C_DEPS)$(CC_DEPS)$(CPP_DEPS)$(EXECUTABLES)$(CXX_DEPS)$(C_UPPER_DEPS) DoctorWhoRpg2.0
+	-$(RM) $(C++_DEPS)$(OBJS)$(C_DEPS)$(CC_DEPS)$(CPP_DEPS)$(EXECUTABLES)$(CXX_DEPS)$(C_UPPER_DEPS) DoctorWhoRpg
 	-@echo ' '
 
 .PHONY: all clean dependents

@@ -23,8 +23,8 @@
 							<builder buildPath="${workspace_loc:/DoctorWhoRpg}/Debug" id="cdt.managedbuild.target.gnu.builder.macosx.exe.debug.660973223" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.macosx.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.3240182" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1505728645" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
-								<option id="macosx.cpp.link.option.paths.2054471424" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths"/>
-								<option id="macosx.cpp.link.option.flags.1263223361" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-framework Cocoa -framework SDL -framework SDL_image -framework SDL_ttf -framework SDL_mixer /Users/Carol/Dropbox/worspace_cpp/DoctorWhoRpg/SDL_Main/SDLMain.m" valueType="string"/>
+								<option id="macosx.cpp.link.option.paths.2054471424" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths"/>
+								<option id="macosx.cpp.link.option.flags.1263223361" name="Linker flags" superClass="macosx.cpp.link.option.flags" value="-framework Cocoa -framework SDL -framework SDL_image -framework SDL_ttf -framework SDL_mixer ../SDL_Main/SDLMain.m" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.1419980528" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -57,16 +57,6 @@
 								<option id="gnu.c.compiler.macosx.exe.debug.option.debugging.level.958652018" name="Debug Level" superClass="gnu.c.compiler.macosx.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1620619139" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
-						</toolChain>
-					</folderInfo>
-					<folderInfo id="cdt.managedbuild.config.gnu.macosx.exe.debug.1023868869.1477245064" name="/" resourcePath="resources">
-						<toolChain id="cdt.managedbuild.toolchain.gnu.macosx.exe.debug.967112961" name="MacOSX GCC" superClass="cdt.managedbuild.toolchain.gnu.macosx.exe.debug" unusedChildren="">
-							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.97093570" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.3240182"/>
-							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1250068940" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1505728645"/>
-							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.exe.debug.1208206205" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.exe.debug.1484677310"/>
-							<tool id="cdt.managedbuild.tool.gnu.archiver.macosx.base.1021078305" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.macosx.base.1618408134"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.1630411892" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.24003076"/>
-							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.1250697911" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.844216187"/>
 						</toolChain>
 					</folderInfo>
 					<fileInfo id="cdt.managedbuild.config.gnu.macosx.exe.debug.1023868869.533902130" name="SDLMain.m" rcbsApplicability="disable" resourcePath="SDL_Main/SDLMain.m" toolsToInvoke=""/>
